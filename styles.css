@@ -1,0 +1,142 @@
+
+body
+{
+    background-color: rgb(55,55,60);
+    color: white;
+}
+h1
+{
+    padding: 10px;
+    margin-bottom: 0px;
+    background-color: rgb(20,20,20);
+}
+p
+{
+    background-color: rgb(40,40,45);
+    margin-bottom: 0px;
+}
+a
+{
+    color: rgb(200,200,200);
+}
+.linkButtons
+{
+    margin: 10px;
+}
+.btn-primary
+{
+    background-color: rgb(40,40,40);
+    margin: 5px;
+    border-color: rgb(30,30,30);
+}
+.btn-primary:hover
+{
+    background-color: rgb(60,60,60);
+    border-color: rgb(50,50,50);
+}
+.btn-primary:focus
+{
+    background-color: rgb(60,60,60);
+    outline: none;
+    
+}
+
+.customDisabled
+{
+    background-color: rgb(70,70,70);
+}
+
+.navbar
+{
+    background-color: rgb(40,40,40);
+}
+
+.dropdown
+{
+    background-color: rgb(30,30,30);
+}
+
+.dropdown-menu
+{
+    background-color: rgb(20,20,20);
+}
+
+.dropdown-item
+{
+    background-color: rgb(50,50,55);
+    color: white;
+}
+
+.card
+{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(20,20,20)
+}
+
+.card-header
+{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(40,40,40)
+}
+
+.card-body
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(60,60,60)
+}
+
+.card-footer
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(50,50,50)
+}
+
+.scroll
+{
+      position: relative;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255,255,255);
+} 
+
+.center{
+ float:none;
+ margin-left:auto;
+ margin-right:auto;
+}
+
+.float{
+ float:none;
+}
+
+a[href$=".pdf"]{
+	background-image: url(PDFIcon.png);
+	background-position: center left;
+	background-repeat: no-repeat;
+	padding-left: 128px;
+	height:128px;
+	display: inline-block;
+	padding-top: 10px;
+}
+
+a[href$=".docx"]{
+	background-image: url(WordIcon.png);
+	background-position: center left;
+	background-repeat: no-repeat;
+	padding-left: 128px;
+	height:128px;
+	display: inline-block;
+	padding-top: 10px;
+}

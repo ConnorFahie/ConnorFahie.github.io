@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="styles.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+
+<html>
+<head>
+    <title>Connor Fahie's Portfolio</title>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="100">
+    <nav class="navbar navbar-expand-sm fixed-top border-bottom">
+    
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <div class="dropdown">   
+                    <a href="index.html" role="button" class="btn btn-primary">Home</a>
+                </div>
+                <div class="dropdown">        
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="school-projects" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        School Projects
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="school-projects">
+                        <a class="dropdown-item" href="School_Projects.html">Dungeon Mungeon</a>
+                        <a class="dropdown-item" href="School_Projects.html">Slime Mine</a>
+                        <a class="dropdown-item" href="School_Projects.html">Broken Vessel</a>
+                        <a class="dropdown-item" href="School_Projects.html">File Server</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="personal-projects" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Personal Projects
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="personal-projects">
+                        <a class="dropdown-item" href="Personal_Projects.html">Planet Traversal</a>
+                        <a class="dropdown-item" href="Personal_Projects.html">Explore The Marsh</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="about-me" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Contact Information
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="about-me">
+                        <a class="dropdown-item" href="About_Me.html">Résumé</a>
+                        <a class="dropdown-item" href="About_Me.html">Contact Me</a>
+                    </div>
+                </div>
+            </ul>
+        </div>
+    </nav> 
+    <br>
+    <br>
+    <h1 class="display-4 text-center">My Personal Projects</h1>
+    
+    <div class="col-lg-8 center">
+                <div class="card-footer">
+                    <div class="card">
+                        <div class="card-header"> 
+                            <h4>Planet Traversal</h4>
+                        </div>
+                        <div class="card-body">
+                            <img src="PlanetTraversal.png" class="img-fluid">
+                            <br> <br>
+                            <div class="text-justify"> &nbsp &nbsp &nbsp &nbsp Planet traversal is a project of mine where I wrote my own physics system and implemented it into a variation of a Lunar Lander game. Instead of the goal being to simply land on a single planet using limited fuel you start in orbit of a planet and have to travel to other planets where you can land and refuel to again travel to yet another planet. This project is still a work in progress but the goal will either be to reach a home planet or you gain score as you succesfully land on larger or further planets.</div>
+                        </div>
+                        <div class="card-footer text-left">
+                            <a download href="PlanetTraversal.zip" role="button" class="btn btn-primary col-lg-8">Download</a>                           
+                            <span class="badge badge-secondary">MonoGame</span>
+                            <span class="badge badge-secondary">C#</span>
+                            <span class="badge badge-secondary">Physics</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header"> 
+                            <h4>Explore The Marsh</h4>
+                        </div>
+                        <div class="card-body">
+                            <div align="center" class="embed-responsive embed-responsive-16by9">
+                                <video autoplay loop class="embed-responsive-item">
+                                    <source src="ExploreTheMarsh.mp4" type="video/mp4">
+                                </video>
+                                <br>
+                                <br>
+                            </div>
+                            <div class="text-justify">&nbsp &nbsp &nbsp &nbsp This project was created during a game jam with the theme of arcade. I worked on it over 48 hours with two other friends. The original idea was a game similar to the old Namco arcade game, Bosconian, but with a procedurally generated map. My main job on this project was to create a infinitely generating map using a given set of map tiles we created. I also had to implement a system that loads and unloads these tiles as you progress around the map as storing them all put a lot of stress on the computer.</div>
+                        </div>
+                        <div class="card-footer text-left">
+                            <a download href="Explore%20The%20Marsh.zip" role="button" class="btn btn-primary col-lg-8">Download</a>
+                            <span class="badge badge-secondary">Unity</span>
+                            <span class="badge badge-secondary">C#</span>
+                            <span class="badge badge-secondary">Procedural Generation</span>
+                        </div>
+                    </div>
+            </div>
